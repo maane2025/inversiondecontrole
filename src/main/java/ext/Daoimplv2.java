@@ -1,7 +1,9 @@
 package ext;
 
 import dao.Idao;
+import org.springframework.stereotype.Component;
 
+@Component("dao2")
 
 
 public class Daoimplv2 implements Idao {
